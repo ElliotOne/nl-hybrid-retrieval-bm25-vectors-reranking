@@ -1,0 +1,17 @@
+name: build-and-test
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '11.0.100'
+      - run: dotnet restore HybridRetrieval.slnx --locked-mode
+      - run: dotnet test HybridRetrieval.slnx -c Release --no-restore
+      - run: docker build -t hybrid-retrieval:ci .

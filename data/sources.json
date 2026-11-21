@@ -1,0 +1,91 @@
+{
+    "repository":  "dotnet/docs",
+    "revision":  "c023f59008561b0633204140aaccd803139ac435",
+    "license":  "CC-BY-4.0 (documentation); MIT (code examples)",
+    "sources":  [
+                    {
+                        "id":  "caching",
+                        "title":  ".NET caching",
+                        "path":  "docs/core/extensions/caching.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/caching.md",
+                        "sha256":  "94168a15d0eca6505fe34b637835a503e4d8ebca1b6cea37fca03c9c6a97b845"
+                    },
+                    {
+                        "id":  "http-resilience",
+                        "title":  "Build resilient HTTP applications",
+                        "path":  "docs/core/resilience/http-resilience.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/resilience/http-resilience.md",
+                        "sha256":  "c298616df7dff02a6adf2c5aaae10f7c29582895d25b564c731045c6fca6ad2d"
+                    },
+                    {
+                        "id":  "httpclient-factory",
+                        "title":  "Use IHttpClientFactory",
+                        "path":  "docs/core/extensions/httpclient-factory.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/httpclient-factory.md",
+                        "sha256":  "0ea4e7df4f6b540423fde638be0927709134961c45b3915cadc78325efa3aa57"
+                    },
+                    {
+                        "id":  "factory-troubleshooting",
+                        "title":  "Troubleshoot IHttpClientFactory",
+                        "path":  "docs/core/extensions/httpclient-factory-troubleshooting.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/httpclient-factory-troubleshooting.md",
+                        "sha256":  "bfb7f114951b576036cc6012b708b8fcca3e8e8964f6e3865243434951b43516"
+                    },
+                    {
+                        "id":  "http-rate-limiter",
+                        "title":  "Rate limit an HTTP handler",
+                        "path":  "docs/core/extensions/http-ratelimiter.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/http-ratelimiter.md",
+                        "sha256":  "e423af85c10c07eea16b689658c46c2d26050857d65055c404db22688828cce6"
+                    },
+                    {
+                        "id":  "http-logging",
+                        "title":  "HTTP client logging",
+                        "path":  "docs/core/extensions/httpclient-logging.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/httpclient-logging.md",
+                        "sha256":  "b576690d48947eaf02632bc3d1abee04b8feaf5c45bc7996c1c821ce717af726"
+                    },
+                    {
+                        "id":  "logging",
+                        "title":  "Logging in .NET",
+                        "path":  "docs/core/extensions/logging/overview.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/logging/overview.md",
+                        "sha256":  "4a24adf1d72a31e8695f19d9e3dc930d2209b75190e92141246b10c64f8f9c22"
+                    },
+                    {
+                        "id":  "options",
+                        "title":  "Options pattern in .NET",
+                        "path":  "docs/core/extensions/options.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/options.md",
+                        "sha256":  "8e0c89fbf1527fe2224a1656c2bc320ddfc2450c0ccd922f13401b5d9573c923"
+                    },
+                    {
+                        "id":  "options-validation",
+                        "title":  "Compile-time options validation",
+                        "path":  "docs/core/extensions/options-validation-generator.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/options-validation-generator.md",
+                        "sha256":  "e3c2f76ab8ce4b05e08f3220ff42c81f0e6afb5e344480edcef5caae3ac9d4e4"
+                    },
+                    {
+                        "id":  "dependency-injection",
+                        "title":  "Dependency injection in .NET",
+                        "path":  "docs/core/extensions/dependency-injection/overview.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/dependency-injection/overview.md",
+                        "sha256":  "3f13a813193d1d6fecdf8c8f397d3dd861dde1510c1597a777e4743256206168"
+                    },
+                    {
+                        "id":  "workers",
+                        "title":  "Worker services in .NET",
+                        "path":  "docs/core/extensions/workers.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/workers.md",
+                        "sha256":  "556e6ca291e5a6c46f47c7f74989eb9f53b83a4587020c977edf0e050d7c9e1e"
+                    },
+                    {
+                        "id":  "channels",
+                        "title":  "Channels in .NET",
+                        "path":  "docs/core/extensions/channels.md",
+                        "url":  "https://github.com/dotnet/docs/blob/c023f59008561b0633204140aaccd803139ac435/docs/core/extensions/channels.md",
+                        "sha256":  "a1f1a99d3be02b719af706d6e97aec04a8b0cfa3d53f8e601d0e496c8311d5a0"
+                    }
+                ]
+}

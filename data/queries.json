@@ -1,0 +1,18 @@
+{
+  "version": "2026-11-21.seed-1",
+  "judgmentNotes": "Authored source-level seed judgments for public .NET documentation, not production traffic or independent reviewer labels. Grade 3 = direct answer, 2 = useful supporting answer, 1 = relevant background. Unlisted documents are treated as nonrelevant. Inspect retrieved passages and amend labels before drawing broad quality conclusions.",
+  "queries": [
+    { "id": "exact-resilience", "category": "api-name", "query": "AddStandardResilienceHandler", "relevance": { "http-resilience": 3 } },
+    { "id": "exact-channel", "category": "api-name", "query": "BoundedChannelFullMode.Wait", "relevance": { "channels": 3 } },
+    { "id": "exact-validation", "category": "api-name", "query": "ValidateOnStart IValidateOptions", "relevance": { "options": 3, "options-validation": 2 } },
+    { "id": "exact-cache", "category": "api-name", "query": "IMemoryCache IDistributedCache", "relevance": { "caching": 3 } },
+    { "id": "concept-backpressure", "category": "paraphrase", "query": "How can a producer wait when the consumers cannot keep up with a queue?", "relevance": { "channels": 3 } },
+    { "id": "concept-outage", "category": "paraphrase", "query": "Stop sending requests to an unhealthy downstream service for a while and then try it again", "relevance": { "http-resilience": 3 } },
+    { "id": "concept-settings", "category": "paraphrase", "query": "Detect invalid configuration before the application begins serving work", "relevance": { "options": 3, "options-validation": 2 } },
+    { "id": "concept-logs", "category": "paraphrase", "query": "Record named values in log messages so the logging backend can search them as fields", "relevance": { "logging": 3 } },
+    { "id": "mixed-retries", "category": "mixed", "query": "HttpClient retry timeout circuit breaker and HTTP 429 Too Many Requests", "relevance": { "http-resilience": 3, "http-rate-limiter": 2 } },
+    { "id": "mixed-cookies", "category": "mixed", "query": "IHttpClientFactory pooled handlers share CookieContainer and lose cookies when recycled", "relevance": { "httpclient-factory": 3, "factory-troubleshooting": 2 } },
+    { "id": "mixed-rate-limit", "category": "mixed", "query": "Use TokenBucketRateLimiter in a DelegatingHandler to limit outbound HTTP calls", "relevance": { "http-rate-limiter": 3 } },
+    { "id": "mixed-redaction", "category": "mixed", "query": "Configure HTTP client logging and redact request headers", "relevance": { "http-logging": 3, "httpclient-factory": 1 } }
+  ]
+}
